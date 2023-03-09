@@ -77,3 +77,20 @@ switch (expressao) {
         break;
 }
 ~~~
+
+## Expressão Condicional Ternária
+
+Estrutura usada quando se deseja decidir um valor com base em uma condição.
+
+~~~java
+(condicao) ? valor_se_verdadeiro ? valor_se_falso
+~~~
+
+
+# Escopo e Inicialização
+
+- Escopo de uma variável: região onde ela é válida, ou seja, onde ela pode ser referenciada;
+
+- Uma variável declarada dentro de um bloco de código deixa de existir após a execução desse bloco;
+
+- Uma variável não pode ser usada se não for inicializada em JAVA;

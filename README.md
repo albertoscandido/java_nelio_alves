@@ -1,6 +1,4 @@
-# Estruturas Comparativas
-
-### Expressões Comparativas 
+# Expressões Comparativas 
 
 São expressões que comparam dois valores e cujo resultado é um valor verdade (bool)
 
@@ -25,7 +23,6 @@ Operador   | Significado
 && | E
 \|\| | OU
 ! | Não
-
 
 # Estruturas Comparativas
 

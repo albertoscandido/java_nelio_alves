@@ -1,9 +1,20 @@
-# java_nelio_alves
+# Introdução à Programação Orientada a Objetos
 
-## LINKS
+## Classe
 
-- [Introdução](https://github.com/albertoscandido/java_nelio_alves/tree/introduction)
-- [Estrutura Sequencial](https://github.com/albertoscandido/java_nelio_alves/tree/sequential_structure)
-- [Estrutura Condicional](https://github.com/albertoscandido/java_nelio_alves/tree/conditional_structure)
-- [Estrutura de Repetição](https://github.com/albertoscandido/java_nelio_alves/tree/repetitive_structure)
-- [Outros tópicos básicos sobre Java](https://github.com/albertoscandido/java_nelio_alves/tree/other_basic_java_topics)
+- é um tipo estuturado que pode conter membros - atributos e métodos;
+- é a definição de um 'tipo' (uma forma para criar objetos);
+- objetos são intâncias de uma classe;
+- pode prover outros recursos como: construtores, sobrecarga, encapsulamento, herança, polimorfismo.
+
+Tipos | Exemplos
+---- | ----
+Entidades | Produto, Cliente
+Serviços | ProdutoService, ClienteService
+Controladores | ProdutoController, Cliente Controller
+Utilitários | Calculadora, Compactador
+Outros | views, repositórios, gerenciadores, etc
+
+
+## Instanciação (alocação dinâmica de memória)
+Variáveis estáticas declaradas são criadas em uma área da memória que se chama **Stack**. Usando o comando **new**, podemos fazer uma alocação dinâmica de memória. Quando você instancia um objeto, este será criado em uma área da memória chamada **Heap** (área da memória onde são criados os objetos dinâmicos durante a execução). Assim, a variável estática ainda existe na **Stack**, mas vai conter apenas o endereço de memória do objeto que foi criado no **Heap**.

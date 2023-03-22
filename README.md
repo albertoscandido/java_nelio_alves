@@ -44,3 +44,9 @@ public class Product() {
     }
 }
 ~~~
+
+## Encapsulamento
+
+- princípio que consiste em esconde detalhes de implementação de uma classe, expondo apenas operações seguras e que mantenham os objetos em um estado consistente.
+- regra de ouro: o objeto sempre deve estar em um estado consistente, e a própria classe deve garantir isso.
+- regra geral básica - um objeto não deve expor nenhum atributo (usar sempre o modificar de acesso private)

@@ -11,3 +11,4 @@ A organização ocorreu com um tópico para cada seção do curso e ao clicar no
 - [Estrutura de Repetição](https://github.com/albertoscandido/java_nelio_alves/tree/repetitive_structure)
 - [Outros tópicos básicos sobre Java](https://github.com/albertoscandido/java_nelio_alves/tree/other_basic_java_topics)
 - [Introdução à Programação Orientada a Objetos](https://github.com/albertoscandido/java_nelio_alves/tree/introduction-to-object-oriented-programming)
+- [Construtores, palavra this, sobrecarga e encapsulamento](https://github.com/albertoscandido/java_nelio_alves/tree/constructor-this-overload-encapsulation)

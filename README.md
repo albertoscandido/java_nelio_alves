@@ -50,3 +50,14 @@ public class Product() {
 - princípio que consiste em esconde detalhes de implementação de uma classe, expondo apenas operações seguras e que mantenham os objetos em um estado consistente.
 - regra de ouro: o objeto sempre deve estar em um estado consistente, e a própria classe deve garantir isso.
 - regra geral básica - um objeto não deve expor nenhum atributo (usar sempre o modificar de acesso private)
+
+## Facilidades de IDEs
+
+- construtores, getter e setters podem ser gerados automaticamente pelas IDEs para agilizar o desenvolvimento
+
+## Modificadores de acesso
+
+- private: só pode ser acessado na própria classe
+- (nada): só pode ser acessado nas classes do mesmo pacote
+- protected: só pode ser acessado no mesmo pacote, bem como de subclasses de pacotes diferente
+- public: pode ser acessado de qualquer classe

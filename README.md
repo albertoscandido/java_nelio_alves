@@ -20,3 +20,27 @@ Product p = new Product()
 
 - é uma referência para o próprio objeto.
 - usado para diferenciar atributos de variáveis locais / passar o próprio objeto como argumento na chamada de um método ou construtor
+
+## Sobrecarga
+
+- é um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome, porém com lista de parâmetros diferentes
+
+~~~java
+public class Product() {
+    String name;
+    double price;
+    int quantity;
+
+    public Product(String name, double price, int quantity) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
+    public Product(String name, double price) {
+        this.name = name;
+        this.price = price;
+        quantity = 0;
+    }
+}
+~~~

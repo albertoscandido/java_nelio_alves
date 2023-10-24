@@ -15,7 +15,7 @@ Precedência - sequência em que a expressão é executada
 
 <br><br>
 
-## Vaiáveis e tipos básicos em Java
+## Variáveis e tipos básicos em Java
 Em programação, uma variável é uma porção de memória(RAM)_ utilizada para armazenar dados durante a execução dos programas.
 
 ### Declaração 

@@ -11,7 +11,7 @@ Tipos | Exemplos
 ---- | ----
 Entidades | Produto, Cliente
 Serviços | ProdutoService, ClienteService
-Controladores | ProdutoController, Cliente Controller
+Controladores | ProdutoController, ClienteController
 Utilitários | Calculadora, Compactador
 Outros | views, repositórios, gerenciadores, etc
 

@@ -1,14 +1,14 @@
-# java_nelio_alves
+# Comportamentos de memória, arrays e listas
 
-Esse repositório foi feito com objetivo de guardar minhas anotações sobre cada seção do [curso de Java do Professor Nelio Alves](https://www.udemy.com/course/java-curso-completo/).
-A organização ocorreu com um tópico para cada seção do curso e ao clicar no link, você será direcionado para uma branch com as anotações e talvez alguns exemplos (como eu fiz o curso em um momento em que já conhecia outra linguagem de programação e sabia um pouco de Java, pulei os exemplos e exercícios das seções iniciais por serem muito introdutórias).
+## Tipos referência vs. tipos valor
 
-## LINKS
+Classe | Tipo primitivo
+---- | ----
+Vantagem: usufrui de todos os recursos da OO | Vantagem: é simples e mais performático
+Variáveis são ponteiros | Variáveis são caixas
+Objetos precisam ser instanciados usando new, ou apontar para um objeto já existente | Não instancia. Uma vez declarados, estão prontos pra uso
+Aceita valor null | Não aceita valor null
+Y = X = "Y passa a apontar para onde X aponta" | Y = X = "Y recebe uma cópia de X"
+Objetos instanciados no heap | "Objetos" são instanciados no HEAP
+Objetos não utilizados são desalocados em um momento próximo pelo garbage collector | "Objetos" são desalocados imediatamente quando seu escopo de execução é finalizado 
 
-- [Introdução](https://github.com/albertoscandido/java_nelio_alves/tree/introduction)
-- [Estrutura Sequencial](https://github.com/albertoscandido/java_nelio_alves/tree/sequential_structure)
-- [Estrutura Condicional](https://github.com/albertoscandido/java_nelio_alves/tree/conditional_structure)
-- [Estrutura de Repetição](https://github.com/albertoscandido/java_nelio_alves/tree/repetitive_structure)
-- [Outros tópicos básicos sobre Java](https://github.com/albertoscandido/java_nelio_alves/tree/other_basic_java_topics)
-- [Introdução à Programação Orientada a Objetos](https://github.com/albertoscandido/java_nelio_alves/tree/introduction-to-object-oriented-programming)
-- [Construtores, palavra this, sobrecarga e encapsulamento](https://github.com/albertoscandido/java_nelio_alves/tree/constructor-this-overload-encapsulation)

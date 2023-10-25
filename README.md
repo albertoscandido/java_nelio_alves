@@ -12,3 +12,9 @@ Y = X = "Y passa a apontar para onde X aponta" | Y = X = "Y recebe uma cópia de
 Objetos instanciados no heap | "Objetos" são instanciados no HEAP
 Objetos não utilizados são desalocados em um momento próximo pelo garbage collector | "Objetos" são desalocados imediatamente quando seu escopo de execução é finalizado 
 
+<br/>
+<br/>
+
+## Garbage collector
+• É um processo que automatiza o gerenciamento de memória de um programa em execução
+• O garbage collector monitora os objetos alocados dinamicamente pelo programa (no heap), desalocando aqueles que não estão mais sendo utilizados.

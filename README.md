@@ -1,10 +1,4 @@
-# java_nelio_alves
-
-Esse repositório foi feito com objetivo de guardar minhas anotações sobre cada seção do [curso de Java do Professor Nelio Alves](https://www.udemy.com/course/java-curso-completo/).
-A organização ocorreu com um tópico para cada seção do curso e ao clicar no link, você será direcionado para uma branch com as anotações e talvez alguns exemplos (como eu fiz o curso em um momento em que já conhecia outra linguagem de programação e sabia um pouco de Java, pulei os exemplos e exercícios das seções iniciais por serem muito introdutórias).
-
-<br/>
-<br/>
+# Tópicos especiais em Java : data-hora
 
 ## Data 
 

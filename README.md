@@ -3,14 +3,21 @@
 Esse repositório foi feito com objetivo de guardar minhas anotações sobre cada seção do [curso de Java do Professor Nelio Alves](https://www.udemy.com/course/java-curso-completo/).
 A organização ocorreu com um tópico para cada seção do curso e ao clicar no link, você será direcionado para uma branch com as anotações e talvez alguns exemplos (como eu fiz o curso em um momento em que já conhecia outra linguagem de programação e sabia um pouco de Java, pulei os exemplos e exercícios das seções iniciais por serem muito introdutórias).
 
-## LINKS
+## Data 
 
-- [Introdução](https://github.com/albertoscandido/java_nelio_alves/tree/introduction)
-- [Estrutura Sequencial](https://github.com/albertoscandido/java_nelio_alves/tree/sequential_structure)
-- [Estrutura Condicional](https://github.com/albertoscandido/java_nelio_alves/tree/conditional_structure)
-- [Estrutura de Repetição](https://github.com/albertoscandido/java_nelio_alves/tree/repetitive_structure)
-- [Outros tópicos básicos sobre Java](https://github.com/albertoscandido/java_nelio_alves/tree/other_basic_java_topics)
-- [Introdução à Programação Orientada a Objetos](https://github.com/albertoscandido/java_nelio_alves/tree/introduction-to-object-oriented-programming)
-- [Construtores, palavra this, sobrecarga e encapsulamento](https://github.com/albertoscandido/java_nelio_alves/tree/constructor-this-overload-encapsulation)
-- [Comportamentos de memória, arrays e listas](https://github.com/albertoscandido/java_nelio_alves/tree/array-list)
-- [Tópicos especiais em java:data-hora]()
+- Data Local: não considera fuso horário
+- Data-hora global: quando o momento exato interessa a pessoas de outro fuso horário.
+
+
+### Timezone
+
+- GMT/UTC/Z - Horário de Londres (padrão)
+- Outros fuso horários são relativos ao UTC:
+  - SP - GMT-3
+  - Manaus - GMT-4
+  - Portugal - GMT+1
+- muitas tecnologias/linguagens usam nomes para identificar os timezones 
+  - US/Pacific
+  - America/Sao_Paulo
+
+

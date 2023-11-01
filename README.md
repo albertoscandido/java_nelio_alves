@@ -1,17 +1,36 @@
-# java_nelio_alves
+# Enumerações, composição
 
-Esse repositório foi feito com objetivo de guardar minhas anotações sobre cada seção do [curso de Java do Professor Nelio Alves](https://www.udemy.com/course/java-curso-completo/).
-A organização ocorreu com um tópico para cada seção do curso e ao clicar no link, você será direcionado para uma branch com as anotações e talvez alguns exemplos (como eu fiz o curso em um momento em que já conhecia outra linguagem de programação e sabia um pouco de Java, pulei os exemplos e exercícios das seções iniciais por serem muito introdutórias).
+## Enumerações
+- É um tipo especial que serve para especificar de forma literal umconjunto de constantes relacionadas
+- Palavra chave em Java: enum
+- Vantagem: melhor semântica, código mais legível e auxiliado pelo compilador
+- [Documentação Oracle](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)
 
-## LINKS
+```java
+// Enum
+public enum OrderStatus {
+    PENDING_PAYMENT,
+    PROCESSING,
+    SHIPPED,
+    DELIVERED;
+}
 
-- [Introdução](https://github.com/albertoscandido/java_nelio_alves/tree/introduction)
-- [Estrutura Sequencial](https://github.com/albertoscandido/java_nelio_alves/tree/sequential_structure)
-- [Estrutura Condicional](https://github.com/albertoscandido/java_nelio_alves/tree/conditional_structure)
-- [Estrutura de Repetição](https://github.com/albertoscandido/java_nelio_alves/tree/repetitive_structure)
-- [Outros tópicos básicos sobre Java](https://github.com/albertoscandido/java_nelio_alves/tree/other_basic_java_topics)
-- [Introdução à Programação Orientada a Objetos](https://github.com/albertoscandido/java_nelio_alves/tree/introduction-to-object-oriented-programming)
-- [Construtores, palavra this, sobrecarga e encapsulamento](https://github.com/albertoscandido/java_nelio_alves/tree/constructor-this-overload-encapsulation)
-- [Comportamentos de memória, arrays e listas](https://github.com/albertoscandido/java_nelio_alves/tree/array-list)
-- [Tópicos especiais em java:data-hora](https://github.com/albertoscandido/java_nelio_alves/tree/date-hour)
-- [Extra - comandos básicos git e github](https://github.com/albertoscandido/java_nelio_alves/tree/git-github)
+// Conversão de String para enum
+OrderStatus os1 = OrderStatus.DELIVERED;
+OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
+```
+
+# Design
+
+- Categorias de classes
+  - Em um sistema orientado a objetos, de modo geral "tudo" é objeto.
+  - Por questões de design tais como organização, flexibilidade, reuso, delegação, etc.
+  - há várias categorias de classes:
+    - Controllers
+    - Entities
+    - Services
+    - Views
+    - Repositories
+
+<br/>
+<br/>

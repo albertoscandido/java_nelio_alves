@@ -16,3 +16,5 @@ A organização ocorreu com um tópico para cada seção do curso e ao clicar no
 - [Tópicos especiais em java:data-hora](https://github.com/albertoscandido/java_nelio_alves/tree/date-hour)
 - [Extra - comandos básicos git e github](https://github.com/albertoscandido/java_nelio_alves/tree/git-github)
 - [Enumerações e composição](https://github.com/albertoscandido/java_nelio_alves/tree/enumerations-and-compositions)
+- [Herança e Polimorfismo](https://github.com/albertoscandido/java_nelio_alves/tree/inheritance-and-polymorphism)
+  - [Sobreposição, super, override, final, classes e métodos abstratos](https://github.com/albertoscandido/java_nelio_alves/tree/inheritance-and-polymorphism#sobreposi%C3%A7%C3%A3o-palavra-super-anota%C3%A7%C3%A3o-override)

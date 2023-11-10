@@ -46,7 +46,24 @@ catch (ExceptionType e) {
 
 }
 catch (ExceptionType e) {
-  
+
 }
 
 ```
+
+## Bloco Finaly
+- É um bloco que contém código a ser executado independentemente de ter ocorrido ou não uma exceção.
+- Exemplo clássico: fechar um arquivo, conexão de banco de dados, ou outro recurso específico ao final do processamento.
+
+```java
+try {
+
+}
+catch (ExceptionType e) {
+
+}
+finally {
+
+}
+```
+

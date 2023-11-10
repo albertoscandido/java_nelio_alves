@@ -67,3 +67,14 @@ finally {
 }
 ```
 
+## Criando exceções personalizadas
+
+```java
+class DomainException extends Exception  {
+//...
+}
+
+class DomainException extends RuntimeException  { // Compilador não obriga a tratar exceções extendidas a partir de RuntimeException
+//...
+}
+```

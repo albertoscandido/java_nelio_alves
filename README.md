@@ -27,3 +27,26 @@ https://docs.oracle.com/javase/10/docs/api/java/lang/package-tree.html
   - Delega a lógica do erro para a classe responsável por conhecer as regras que podem ocasionar esse erro
   - Trata de forma organizada (inclusive hierárquica) exceções de tipos diferentes
   - A exceção pode carregar dados quaisquer
+
+## Estrutura try-catch
+- Bloco try
+  - Contém o código que representa a execução normal do trecho de código que pode acarretar em uma exceção
+- Bloco catch
+  - Contém o código a ser executado caso uma exceção ocorra
+  - Deve ser especificado o tipo da exceção a ser tratada (upcasting é permitido)
+
+```java
+try {
+
+}
+catch (ExceptionType e) {
+
+}
+catch (ExceptionType e) {
+
+}
+catch (ExceptionType e) {
+  
+}
+
+```

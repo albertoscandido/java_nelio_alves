@@ -1,20 +1,29 @@
-# java_nelio_alves
+# Tratamento de exceções
 
-Esse repositório foi feito com objetivo de guardar minhas anotações sobre cada seção do [curso de Java do Professor Nelio Alves](https://www.udemy.com/course/java-curso-completo/).
-A organização ocorreu com um tópico para cada seção do curso e ao clicar no link, você será direcionado para uma branch com as anotações e talvez alguns exemplos (como eu fiz o curso em um momento em que já conhecia outra linguagem de programação e sabia um pouco de Java, pulei os exemplos e exercícios das seções iniciais por serem muito introdutórias).
+- Uma exceção é qualquer condição de erro ou comportamento inesperado encontrado por um programa em execução
+- Em Java, uma exceção é um objeto herdado da classe:
+  - java.lang.Exception - o compilador obriga a tratar ou propagar
+  - java.lang.RuntimeException - o compilador não obriga a tratar ou propagar
+- Quando lançada, uma exceção é propagada na pilha de chamadas de métodos em execução, até que seja capturada (tratada) ou o programa seja encerrado
 
-## LINKS
+## Hierarquia de exceções do Java
 
-- [Introdução](https://github.com/albertoscandido/java_nelio_alves/tree/introduction)
-- [Estrutura Sequencial](https://github.com/albertoscandido/java_nelio_alves/tree/sequential_structure)
-- [Estrutura Condicional](https://github.com/albertoscandido/java_nelio_alves/tree/conditional_structure)
-- [Estrutura de Repetição](https://github.com/albertoscandido/java_nelio_alves/tree/repetitive_structure)
-- [Outros tópicos básicos sobre Java](https://github.com/albertoscandido/java_nelio_alves/tree/other_basic_java_topics)
-- [Introdução à Programação Orientada a Objetos](https://github.com/albertoscandido/java_nelio_alves/tree/introduction-to-object-oriented-programming)
-- [Construtores, palavra this, sobrecarga e encapsulamento](https://github.com/albertoscandido/java_nelio_alves/tree/constructor-this-overload-encapsulation)
-- [Comportamentos de memória, arrays e listas](https://github.com/albertoscandido/java_nelio_alves/tree/array-list)
-- [Tópicos especiais em java:data-hora](https://github.com/albertoscandido/java_nelio_alves/tree/date-hour)
-- [Extra - comandos básicos git e github](https://github.com/albertoscandido/java_nelio_alves/tree/git-github)
-- [Enumerações e composição](https://github.com/albertoscandido/java_nelio_alves/tree/enumerations-and-compositions)
-- [Herança e Polimorfismo](https://github.com/albertoscandido/java_nelio_alves/tree/inheritance-and-polymorphism)
-  - [Sobreposição, super, override, final, classes e métodos abstratos](https://github.com/albertoscandido/java_nelio_alves/tree/inheritance-and-polymorphism#sobreposi%C3%A7%C3%A3o-palavra-super-anota%C3%A7%C3%A3o-override)
+https://docs.oracle.com/javase/10/docs/api/java/lang/package-tree.html
+
+- Throwable
+  - Error
+    - OutOfMemoryError
+    - VirtualMachineError
+  - Exception
+    - IOException
+    - RuntimeException
+      - IndexOfBoundsException
+      - NullPointerException
+
+<br/>
+
+- O modelo de tratamento de Exceções permite que erros sejam tratados de uma forma flexível e consistente, usando boas práticas
+- Vantagens:
+  - Delega a lógica do erro para a classe responsável por conhecer as regras que podem ocasionar esse erro
+  - Trata de forma organizada (inclusive hierárquica) exceções de tipos diferentes
+  - A exceção pode carregar dados quaisquer
